@@ -1,0 +1,463 @@
+/* header */
+
+
+.sez_1{
+    background-image: url(/media/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.text-y{
+    color: var(--y);
+}
+
+.h1-custom{
+    font-size: 70px;
+}
+
+.p-1c{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.i-custom{
+    color: var(--y);
+    font-size: 50px;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+/* .img-console{
+height: 700px;
+width: 450px;
+} */
+
+/* sezione 2 */
+
+.sez-2{
+    background-color: rgb(27,21,64);
+    min-height: 50vh ;
+}
+
+
+.img-custom{
+    height: 450px;
+    width: 350px;
+}
+
+.tit-2{
+    font-size: 35px;
+}
+
+
+/* sezione 3 */
+
+.sez-3{
+    background-image: url(./media/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+/* .box-1{
+position: relative;
+} */
+
+.box{
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+    height: 750px;
+    width: 600px;
+    background-color: rgb(27, 21, 64) ;
+    border-radius: 20px;
+}
+
+.tit-3{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+
+.col-custom{
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.icon-2{
+    font-size: 65px;
+}
+
+.p-2c{
+    font-size: 35px;
+    margin-bottom: auto;
+}
+
+.name{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid purple;
+    color: var(--w);
+    width: 95%;
+}
+.name-1{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid purple;
+    color: var(--w);
+    width: 92%;
+}
+
+.termini{
+    color: var(--w);
+}
+
+.bottone{
+    background-color: var(--y);
+    border-radius: 40rem;
+    height: 50px;
+}
+
+/* sezione-4 */
+
+
+.sez-4{
+    background-color: rgb(20, 9, 37) ;
+    min-height: 55vh;
+}
+
+.p-3c{
+    font-size: 20px;
+}
+
+.chi-img{
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+.chi{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+/* sezione 5 */
+
+.sez-5{
+    background-image: url(/media/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+
+
+.img-marco{
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+.p-4c{
+    
+    font-size: 25px;
+    margin-bottom: 500px;
+    
+}
+
+.speak{
+    margin-top: 300px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.marco{
+    margin-top: auto;
+    font-size: 50px;
+    
+}
+
+/* footer */
+
+.cust{
+    background-color: rgb(33, 37, 41);
+}
+
+/* media query */
+
+@media screen and (max-width:470px) 
+{
+    /* sezione 3 */
+    
+    .sez-3{
+        background-image: url(./media/bg-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 99%;
+        min-width: 100%;
+    }
+    
+    
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        height: 600px;
+        width: 350px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+    
+    .tit-3{
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    
+    
+    
+    .col-custom{
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    
+    .icon-2{
+        font-size: 50px;
+        
+    }
+    
+    .p-2c{
+        font-size: 25px;
+        margin-bottom: auto;
+    }
+    
+    .name{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 95%;
+    }
+    .name-1{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 92%;
+    }
+    
+    .termini{
+        color: var(--w);
+        font-size: 12px;
+    }
+    
+    .bottone{
+        background-color: var(--y);
+        border-radius: 40rem;
+        height: 40px;
+    }
+    
+    /* sezione-4 */
+    
+    
+    .sez-4{
+        background-color: rgb(20, 9, 37) ;
+        min-height: 55vh;
+    }
+    
+    .p-3c{
+        font-size: 20px;
+    }
+    
+    .chi-img{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    
+    .chi{
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    
+    /* sezione 5 */
+    
+    .sez-5{
+        background-image: url(/media/bg-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+    
+    
+    
+    .img-marco{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    
+    .p-4c{
+        
+        font-size: 25px;
+        margin-bottom: 100px;
+        
+    }
+    
+    .speak{
+        margin-top: 100px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .marco{
+        margin-top: auto;
+        font-size: 50px;
+        
+    }
+}
+
+@media screen and ((min-width:471px) and (max-width:1024px)) 
+
+{
+    
+    /* sezione 3 */
+    
+    
+    .box{
+        position: absolute;
+        top: 40%;
+        left: 22%;
+        height: 700px;
+        width: 450px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+    
+    .tit-3{
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .col-custom{
+        background-color: yellow;
+        border-radius: 50%;
+        
+    }
+    
+    .icon-2{
+        font-size: 55px;     
+    }
+    
+    .p-2c{
+        font-size: 25px;
+        margin-bottom: auto;
+    }
+    
+    .name{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 95%;
+    }
+    .name-1{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 92%;
+    }
+    
+    .termini{
+        color: var(--w);
+        font-size: 15px;
+        
+    }
+    
+    .bottone{
+        background-color: var(--y);
+        border-radius: 40rem;
+        height: 40px;
+    }
+    
+    
+    /* sezione 4 */
+    
+    
+    .sez-4{
+        background-color: rgb(20, 9, 37) ;
+        min-height: 55vh;
+    }
+    
+    .p-3c{
+        font-size: 20px;
+    }
+    
+    .chi-img{
+        margin-left: 27%;
+        margin-top: 15%;
+    }
+    
+    .chi{
+        margin-top: 10%;
+        margin-left: 27%;
+        margin-bottom: 5%;
+    }
+    
+    
+    /* sezione 5 */
+    .img-marco{
+        margin-top: 10%;
+        margin-right: 0%;
+        margin-left: 15%;
+    }
+    
+    .p-4c{
+        
+        font-size: 25px;
+        margin-bottom: 0%;
+        
+    }
+    
+    .speak{
+        margin-top: 20%;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .marco{
+        margin-top: auto;
+        font-size: 50px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --w:rgb(247,247,247);  
+    --y:rgb(235,220,14);
+}
