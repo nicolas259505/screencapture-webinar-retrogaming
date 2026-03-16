@@ -96,6 +96,7 @@ position: relative;
 
 .icon-2{
     font-size: 65px;
+ 
 }
 
 .p-2c{
@@ -192,6 +193,9 @@ position: relative;
 }
 
 /* media query */
+
+
+/* media query smartphone */
 
 @media screen and (max-width:470px) 
 {
@@ -326,7 +330,9 @@ position: relative;
     }
 }
 
-@media screen and ((min-width:471px) and (max-width:1024px)) 
+/* media query tablet */
+
+@media screen and ((min-width:471px) and (max-width:768px)) 
 
 {
     
@@ -446,6 +452,252 @@ position: relative;
     }
 }
 
+/* media query laptop */
+
+@media screen and ((min-width:769px) and (max-width: 1024px ))
+
+{
+    .console-custom{
+        height: 750px;
+    }
+
+
+
+    .box{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        height: 700px;
+        width: 450px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+    
+    .tit-3{
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .col-custom{
+        background-color: yellow;
+        border-radius: 50%;
+        
+    }
+    
+    .icon-2{
+        font-size: 55px;     
+    }
+    
+    .p-2c{
+        font-size: 25px;
+        margin-bottom: auto;
+    }
+    
+    .name{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 95%;
+    }
+    .name-1{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 92%;
+    }
+    
+    .termini{
+        color: var(--w);
+        font-size: 15px;
+        
+    }
+    
+    .bottone{
+        background-color: var(--y);
+        border-radius: 40rem;
+        height: 40px;
+    }
+    
+    
+    /* sezione 4 */
+    
+    
+    .sez-4{
+        background-color: rgb(20, 9, 37) ;
+        min-height: 55vh;
+    }
+    
+    .p-3c{
+        font-size: 20px;
+    }
+    
+    .chi-img{
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+    
+    .chi{
+        margin-top: 10%;
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+    
+    
+    /* sezione 5 */
+    .img-marco{
+        margin-top: 2%;
+        margin-right: 0%;
+        margin-left: 37%;
+        height: 650px;
+    }
+    
+    .p-4c{
+        
+        font-size: 22px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        
+    }
+    
+    .speak{
+        margin-top: 20%;
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+
+    .marco{
+        margin-top: 0px;
+        font-size: 50px;
+        
+    }
+
+}
+    
+/* media query laptop l */
+
+@media screen and ((min-width:1025px) and (max-width:1440px))
+{
+    .box{
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        height: 700px;
+        width: 450px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+    
+    .tit-3{
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .col-custom{
+        background-color: yellow;
+        border-radius: 50%;
+        
+    }
+    
+    .icon-2{
+        font-size: 55px;     
+    }
+    
+    .p-2c{
+        font-size: 25px;
+        margin-bottom: auto;
+    }
+    
+    .name{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 95%;
+    }
+    .name-1{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid purple;
+        color: var(--w);
+        width: 92%;
+    }
+    
+    .termini{
+        color: var(--w);
+        font-size: 15px;
+        
+    }
+    
+    .bottone{
+        background-color: var(--y);
+        border-radius: 40rem;
+        height: 40px;
+    }
+    
+    
+    /* sezione 4 */
+    
+    
+    .sez-4{
+        background-color: rgb(20, 9, 37) ;
+        min-height: 55vh;
+    }
+    
+    .p-3c{
+        font-size: 20px;
+    }
+    
+    .chi-img{
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+    
+    .chi{
+        margin-top: 10%;
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+    
+    
+    /* sezione 5 */
+    .img-marco{
+        margin-top: 2%;
+        margin-right: 0%;
+        margin-left: 37%;
+        height: 650px;
+    }
+    
+    .p-4c{
+        
+        font-size: 22px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        
+    }
+    
+    .speak{
+        margin-top: 20%;
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+
+    .marco{
+        margin-top: 0px;
+        font-size: 50px;
+        
+    }
+
+}
 
 
 
