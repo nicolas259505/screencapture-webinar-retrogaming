@@ -281,7 +281,7 @@ position: relative;
     }
     
     .p-3c{
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .chi-img{
@@ -291,7 +291,10 @@ position: relative;
     
     .chi{
         margin-top: 100px;
-        margin-left: 10px;
+        margin-left: 0px;
+    }
+    .aulab_icon{
+        width: 300px;
     }
     
     /* sezione 5 */
@@ -699,7 +702,106 @@ position: relative;
 
 }
 
+/* media query mobile m */
 
+@media screen and (max-width:375px) 
+{
+
+
+    /* sezione 1 */
+    .h1-custom{
+    font-size: 60px;
+}
+
+    /* sezione 3 */
+    .box{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        height: 650px;
+        width: 300px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+
+    /* sezione 4 */
+
+     
+    .p-3c{
+        font-size: 15px;
+    }
+    
+    .chi-img{
+        margin-left: 0%;
+        margin-top: 25%;
+    }
+    
+    .chi{
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+    .aulab_icon{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+/* media query mobile s */
+
+@media screen and (max-width:320px) 
+{
+
+
+    /* sezione 1 */
+    .h1-custom{
+    font-size: 50px;
+}
+
+    /* sezione 2 */
+
+    .img-custom{
+    height: 350px;
+    width: 250px;
+}
+
+    /* sezione 3 */
+    .box{
+        position: absolute;
+        top: 45%;
+        left: 3%;
+        height: 650px;
+        width: 300px;
+        background-color: rgb(27, 21, 64) ;
+        border-radius: 20px;
+        
+    }
+
+    /* sezione 4 */
+
+     
+    .p-3c{
+        font-size: 15px;
+    }
+    
+    .chi-img{
+        margin-left: 0%;
+        margin-top: 25%;
+    }
+    
+    .chi{
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+    .aulab_icon{
+        width: 200px;
+        height: 200px;
+    }
+
+}
 
 
 
